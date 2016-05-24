@@ -6,6 +6,11 @@
     tools:context="com.example.elsis.arsenalfc.MainActivity">
 
 
-
-
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/emirates"/>
 </RelativeLayout>
