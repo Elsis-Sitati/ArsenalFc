@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.elsis.arsenalfc.MainActivity">
+    tools:context="com.example.elsis.arsenalfc.MainActivity"
+    android:background="#CB0014">
 
 
     <ImageView
@@ -13,4 +14,57 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:src="@drawable/emirates"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Home"
+        android:id="@+id/home"
+        android:layout_below="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:background="#ffffff" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/About"
+        android:id="@+id/about"
+        android:layout_below="@+id/home"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffff"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Squad"
+        android:id="@+id/squad"
+        android:layout_below="@+id/about"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffff"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Fixtures"
+        android:id="@+id/fixtures"
+        android:layout_below="@+id/squad"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffff"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+
+        />
+
+
 </RelativeLayout>

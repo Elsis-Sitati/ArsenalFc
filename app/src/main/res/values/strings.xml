@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ArsenalFc</string>
+    <string name="Home">Home</string>
+    <string name="About">About</string>
+    <string name="Squad">Squad</string>
+    <string name="Fixtures">Fixtures</string>
 </resources>
