@@ -5,14 +5,16 @@
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="150dp"
     android:id="@+id/card_view"
     android:layout_margin="5dp"
-    card_view:cardBackgroundColor="#CB0014"
+    card_view:cardBackgroundColor="#ffffff"
     card_view:cardCornerRadius="12dp"
     card_view:cardElevation="3dp"
     card_view:contentPadding="4dp"
-    android:foreground="?selectableItemBackground">
+    android:foreground="?selectableItemBackground"
+    android:clickable="true">
+
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -35,7 +37,7 @@
             android:id="@+id/player_name"
             android:layout_toRightOf="@id/item_image"
             android:layout_alignParentTop="true"
-            android:textSize="30sp"
+            android:textSize="20sp"
 
             />
         <TextView
@@ -44,7 +46,7 @@
             android:id="@+id/playing_position"
             android:layout_toRightOf="@id/item_image"
             android:layout_below="@id/player_name"
-            android:textSize="30sp"
+            android:textSize="20sp"
 
             />
 
